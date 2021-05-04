@@ -1,0 +1,44 @@
+.avatar-wrapper {
+    padding: 0;
+}
+
+.timeline:not(:last-child) {
+    margin-bottom: 2.5em;
+}
+
+.timeline h6 {
+    margin-bottom: 0;
+    line-height: 1;
+    text-transform: none;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.blockquote {
+    padding: .5rem 1rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-left: .25rem solid #eceeef;
+}
