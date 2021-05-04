@@ -1,3 +1,7 @@
+.avatar-wrapper {
+    padding: 0;
+}
+
 .timeline:not(:last-child) {
     margin-bottom: 2.5em;
 }
